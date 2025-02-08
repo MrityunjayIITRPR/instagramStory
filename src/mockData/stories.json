@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "profileImage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        "timestamp": "2025-02-08T12:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1506748686157-1b1a9d97c7ed",
+        "timestamp": "2025-02-08T14:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1506748686326-ffb4e2e3c199",
+        "timestamp": "2025-02-08T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Michael Smith",
+    "profileImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+        "timestamp": "2025-02-08T10:30:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1531251445707-1f000e1e87d0",
+        "timestamp": "2025-02-08T11:30:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1517832606299-7ae9f2dc84e1",
+        "timestamp": "2025-02-08T13:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sophia Brown",
+    "profileImage": "https://images.unsplash.com/photo-1554151228-14d9def656e4",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1540206395-68808572332f",
+        "timestamp": "2025-02-08T09:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+        "timestamp": "2025-02-08T10:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1496346651079-6ca5cb67f42f",
+        "timestamp": "2025-02-08T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Daniel Garcia",
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "timestamp": "2025-02-08T14:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+        "timestamp": "2025-02-08T16:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+        "timestamp": "2025-02-08T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Emma Davis",
+    "profileImage": "https://images.unsplash.com/photo-1521119989659-a83eee488004",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+        "timestamp": "2025-02-08T20:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce",
+        "timestamp": "2025-02-08T22:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d",
+        "timestamp": "2025-02-09T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Oliver Martinez",
+    "profileImage": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e3e9",
+        "timestamp": "2025-02-09T02:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1536924430914-91f9e2041b43",
+        "timestamp": "2025-02-09T04:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1507537509458-b8312d35a233",
+        "timestamp": "2025-02-09T06:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Isabella Wilson",
+    "profileImage": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1495555961986-6ddc9e0c393a",
+        "timestamp": "2025-02-09T08:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1473186505569-9c61870c11f9",
+        "timestamp": "2025-02-09T10:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e",
+        "timestamp": "2025-02-09T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ethan Thomas",
+    "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1512316609830-31c4433ee367",
+        "timestamp": "2025-02-09T14:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1512487454774-31c2b7eed3de",
+        "timestamp": "2025-02-09T16:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab",
+        "timestamp": "2025-02-09T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ava White",
+    "profileImage": "https://images.unsplash.com/photo-1554151228-14d9def656e4",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1520262494112-9fe481d36ec3",
+        "timestamp": "2025-02-09T20:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1534119139482-9f84e8e2ba9b",
+        "timestamp": "2025-02-09T22:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1542202222-cf5b1bd72e3f",
+        "timestamp": "2025-02-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "James Brown",
+    "profileImage": "https://images.unsplash.com/photo-1521119989659-a83eee488004",
+    "stories": [
+      {
+        "image": "https://images.unsplash.com/photo-1519160644681-10272a3a7c61",
+        "timestamp": "2025-02-10T02:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1534126511673-b6899657816a",
+        "timestamp": "2025-02-10T04:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1528892952291-009c663ce843",
+        "timestamp": "2025-02-10T06:00:00Z"
+      }
+    ]
+  }
+]
