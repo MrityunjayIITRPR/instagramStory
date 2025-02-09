@@ -1,32 +1,50 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect, useCallback, memo } from "react";
 import StoryViewer from "./StoryViewer";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const StoryList = ({ storiesData }) => {
-  const [selectedStory, setSelectedStory] = useState(null);
+  const [selectedUser, setSelectedUser] = useState(null);
+  const storyListRef = useRef(null);
+
+  useEffect(() => {
+    if (storyListRef.current) {
+      storyListRef.current.scrollLeft = 0;
+    }
+  }, []);
+
+  // Memoize click handler
+  const handleStoryClick = useCallback((user) => {
+    setSelectedUser(user);
+  }, []);
 
   return (
     <div className="story-container">
-      <div className="story-list">
-        {storiesData.map((story) => (
-          <div key={story.id} className="story-item">
-            <img
-              src={story.profileImage}
-              alt={story.name}
+      <h3>Instagram</h3>
+      <div className="story-list" ref={storyListRef}>
+        {storiesData.map((user) => (
+          <div
+            key={user.id}
+            className="story-item"
+            onClick={() => handleStoryClick(user)}
+          >
+            <LazyLoadImage
+              src={user.profileImage}
+              alt="story"
               className="story-thumbnail"
-              onClick={() => setSelectedStory(story)}
+              effect="blur" // Lazy load with blur effect
             />
-            <div className="story-name">{story.name}</div>
+            <div className="story-name">{user.name}</div>
           </div>
         ))}
       </div>
-      {selectedStory && (
+      {selectedUser != null && (
         <StoryViewer
-          story={selectedStory}
-          onClose={() => setSelectedStory(null)}
+          user={selectedUser}
+          onClose={() => setSelectedUser(null)}
         />
       )}
     </div>
   );
 };
 
-export default StoryList;
+export default memo(StoryList);
