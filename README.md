@@ -73,6 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Used to improve performance by loading images only when they are needed, reducing initial load time.
 
-## Modular & Scalable Components:
+### Modular & Scalable Components:
 
 Components like StoryList, StoryViewer are independent, making them reusable and easy to maintain.
+
+### Deployed URL
+
+https://mrityunjayiitrpr.github.io/instagramStory/
