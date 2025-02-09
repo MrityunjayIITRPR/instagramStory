@@ -5,16 +5,16 @@
     "profileImage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167",
     "stories": [
       {
-        "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        "image": "https://images.unsplash.com/photo-1540206395-68808572332f",
+        "timestamp": "2025-02-08T09:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+        "timestamp": "2025-02-08T10:00:00Z"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1496346651079-6ca5cb67f42f",
         "timestamp": "2025-02-08T12:00:00Z"
-      },
-      {
-        "image": "https://images.unsplash.com/photo-1506748686157-1b1a9d97c7ed",
-        "timestamp": "2025-02-08T14:00:00Z"
-      },
-      {
-        "image": "https://images.unsplash.com/photo-1506748686326-ffb4e2e3c199",
-        "timestamp": "2025-02-08T16:00:00Z"
       }
     ]
   },

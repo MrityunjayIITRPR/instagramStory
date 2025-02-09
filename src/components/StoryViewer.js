@@ -7,8 +7,8 @@ const StoryViewer = ({ user, onClose }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setProgress((prev) => prev + 10);
-    }, 300);
+      setProgress((prev) => prev + 5);
+    }, 250);
 
     if (progress >= 100) {
       clearInterval(interval);
@@ -62,7 +62,7 @@ const StoryViewer = ({ user, onClose }) => {
 
       <div className="story-header">
         <LazyLoadImage
-          src={user.profileImage}
+          src={user?.profileImage}
           alt="user"
           className="story-profile-pic"
           effect="blur"
@@ -72,7 +72,7 @@ const StoryViewer = ({ user, onClose }) => {
 
       <div className="story-content">
         <LazyLoadImage
-          src={currentStory.image}
+          src={currentStory?.image}
           alt="story"
           className="story-image"
           effect="blur"
