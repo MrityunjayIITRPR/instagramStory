@@ -1,10 +1,15 @@
 import React, { useState, useRef, useEffect, useCallback, memo } from "react";
 import StoryViewer from "./StoryViewer";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { StoriesData, UserStory } from "../types/types";
 
-const StoryList = ({ storiesData }) => {
-  const [selectedUser, setSelectedUser] = useState(null);
-  const storyListRef = useRef(null);
+interface StoryListProps {
+  storiesData: StoriesData;
+}
+
+const StoryList: React.FC<StoryListProps> = ({ storiesData }) => {
+  const [selectedUser, setSelectedUser] = useState<UserStory | null>(null);
+  const storyListRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (storyListRef.current) {
@@ -12,8 +17,7 @@ const StoryList = ({ storiesData }) => {
     }
   }, []);
 
-  // Memoize click handler
-  const handleStoryClick = useCallback((user) => {
+  const handleStoryClick = useCallback((user: UserStory) => {
     setSelectedUser(user);
   }, []);
 
@@ -31,13 +35,13 @@ const StoryList = ({ storiesData }) => {
               src={user.profileImage}
               alt="story"
               className="story-thumbnail"
-              effect="blur" // Lazy load with blur effect
+              effect="blur"
             />
             <div className="story-name">{user.name}</div>
           </div>
         ))}
       </div>
-      {selectedUser != null && (
+      {selectedUser && (
         <StoryViewer
           user={selectedUser}
           onClose={() => setSelectedUser(null)}

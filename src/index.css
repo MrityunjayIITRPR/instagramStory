@@ -16,6 +16,25 @@
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
+
+  /* Center on large screens */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 414px) {
+  .main-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    padding-left: 5px;
+  }
+
+  .story-container h3 {
+    font-size: 18px;
+  }
 }
 
 /* Story container */

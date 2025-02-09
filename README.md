@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Lazy Loading Images:
+
+Used to improve performance by loading images only when they are needed, reducing initial load time.
+
+## Modular & Scalable Components:
+
+Components like StoryList, StoryViewer are independent, making them reusable and easy to maintain.

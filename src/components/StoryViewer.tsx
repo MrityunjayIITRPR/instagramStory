@@ -1,9 +1,15 @@
 import React, { useState, useEffect, memo } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { UserStory } from "../types/types";
 
-const StoryViewer = ({ user, onClose }) => {
-  const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
-  const [progress, setProgress] = useState(0);
+interface StoryViewerProps {
+  user: UserStory;
+  onClose: () => void;
+}
+
+const StoryViewer: React.FC<StoryViewerProps> = ({ user, onClose }) => {
+  const [currentStoryIndex, setCurrentStoryIndex] = useState<number>(0);
+  const [progress, setProgress] = useState<number>(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -62,7 +68,7 @@ const StoryViewer = ({ user, onClose }) => {
 
       <div className="story-header">
         <LazyLoadImage
-          src={user?.profileImage}
+          src={user.profileImage}
           alt="user"
           className="story-profile-pic"
           effect="blur"
